@@ -1,0 +1,17 @@
+Name: Michael Testut
+ Project Title: Podcast Website
+ Project Stack: Java
+ GitHub Repo Link: https://github.com/michaeltestut/Solo-Project
+
+ Project Description: 
+
+	I will create a website for a podcast where users can listen to and "like" podcast episodes. Administrators will be able to add new episodes, edit episodes, and delete episodes.
+ 
+New Programming Concept(s) I'm Planning to Learn: File upload, creating roles for users (i.e. admins), Bootstrap, API
+
+Week 1 Features (to show at Review during Week 2): Basic Crud
+
+Week 2 Features (to show at the first office hour/lecture of Week 3): New programming concepts utilized,
+
+
+Product Backlog (If I have more time after completing my MVP, I'll start to work on...): Allowing admins to grant admin privileges to other users, add a blog for users to discuss episodes, adding extra javascript to make website more interactive
