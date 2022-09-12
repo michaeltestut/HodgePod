@@ -20,6 +20,7 @@ import com.testut.podcast.models.Episode;
 import com.testut.podcast.services.AmazonClient;
 import com.testut.podcast.services.EpisodeService;
 import com.testut.podcast.services.PodcastService;
+import com.testut.podcast.services.UserService;
 
 @Controller
 public class EpisodeController {
@@ -29,6 +30,9 @@ public class EpisodeController {
 	
 	@Autowired
 	private EpisodeService episodeServ;
+	
+	@Autowired
+	private UserService userServ;
 	
 	@Autowired
 	private AmazonClient amazonClient;
@@ -48,6 +52,7 @@ public class EpisodeController {
 			return "redirect:/logout";
 		}
 		if(result.hasErrors()) {
+			model.addAttribute("podcast", podcastServ.findPodcast(podcast_id));
 			return "addEpisode.jsp";
 		}
 		model.addAttribute("podcast", podcastServ.findPodcast(podcast_id));
@@ -62,6 +67,8 @@ public class EpisodeController {
 		if (session.getAttribute("userId") == null) {
 			return "redirect:/logout";
 		}
+		Long userId = (Long) session.getAttribute("userId");
+		model.addAttribute("user", userServ.findById(userId));
 		model.addAttribute("podcast", podcastServ.findPodcast(podcast_id));
 		model.addAttribute("episode", episodeServ.findEpisode(episode_id));
 		return("viewEpisode.jsp");

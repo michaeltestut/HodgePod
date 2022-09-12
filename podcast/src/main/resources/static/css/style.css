@@ -1,0 +1,238 @@
+@charset "UTF-8";
+
+
+.hodgepodHome{
+	font-family: "Neonderthaw";
+	font-size: 80px;
+	color: rgb(232, 22, 208);
+	text-shadow:2px 5px 5px rgb(232, 22, 208); 
+	
+}
+.hodgepod{
+	font-family: "Neonderthaw";
+	font-size: 60px;
+	color: rgb(232, 22, 208);
+	text-shadow:2px 5px 5px rgb(232, 22, 208); 
+	
+}
+
+.errors{
+	color:white;
+	font-size: 18px;
+	font-weight:bold;
+	font-style:italic;
+}
+
+.myTable{
+	margin:25px;
+	border:4px double rgb(22, 141, 232);
+}
+
+tr{
+	background-color:rgb(232,22,208,0.4);
+	color:white;
+}
+
+tr a{
+	color:white;
+	text-decoration:none;
+	font-family:"Londrina Solid";
+}
+
+.formGroup{
+	margin-bottom:10px;
+	border:2px solid rgb(232, 22, 208);
+	padding:20px;
+}
+
+.header{
+	display:flex;
+	align-items:center;
+	justify-content:space-between;
+	background-color:rgb(22, 141, 232);
+	color:white;
+	padding:5px;
+	box-shadow: 2px 5px 5px rgb(232, 22, 208); 
+}
+
+.fheader{
+	background-color:rgb(22, 141, 232);
+	color:white;
+	padding:5px;
+	box-shadow: 2px 5px 5px rgb(232, 22, 208); 
+}
+
+.btn-container{
+	display:flex;
+	width: 200px;
+	justify-content: space-between;
+}
+
+.delete{
+	color:red;
+	border:none;
+	font-family: "Londrina Solid";
+	font-size:24px;
+	background-color:rgb(232, 22, 208,0.0);
+}
+.deleteOutline{
+	color:red;
+	border:none;
+	font-family: "Londrina Solid";
+	font-size:24px;
+	background-color:rgb(232, 22, 208,0.0);
+	border:2px solid red;
+}
+
+.title{
+	text-align:center;
+	box-shadow: 2px 5px 5px rgb(232, 22, 208); 
+	padding: 20px;
+	font-family:"Londrina Shadow";
+	font-size: 70px;
+	color:rgb(22, 141, 232);
+	text-shadow: 2px 2px 4px rgb(22, 141, 232);
+}
+
+.title-small{
+	text-align:center;
+	box-shadow: 2px 5px 5px rgb(232, 22, 208); 
+	padding: 20px;
+	font-family:"Londrina Shadow";
+	font-size: 50px;
+	color:rgb(22, 141, 232);
+	text-shadow: 2px 2px 4px rgb(22, 141, 232);
+}
+
+
+.center{
+	text-align:center;
+}
+
+.spacing{
+	margin: 10px;
+}
+
+
+.formContainer{
+	border:4px double rgb(232, 22, 208);
+	background-color:rgb(22, 141, 232);
+	color:white;
+	align-items:center;
+	padding:20px;
+	margin-top: 40px;
+	margin-left:20px;
+	margin-right:20px;
+}
+
+.submit{
+	width: 150px;
+	height: 40px;
+	color:rgb(22, 141, 232);
+	font-size:20px;
+	background-color:white;
+	border:1px solid white;
+	box-shadow:4px 4px 4px rgb(232, 22, 208);
+}
+
+.headerLink{
+	color:white;
+	padding-right:50px;
+}
+
+.extraPadding{
+	
+	padding-left:30px;
+}
+
+.or{
+	font-family:"Londrina Shadow";
+	color:rgb(22, 141, 232);
+	text-align:center;
+}
+
+.myBtn{
+	align-self:center;
+}
+
+.podcastInfo{
+	display:flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+.londrinaSolid{
+	font-family:"Londrina Solid";
+}
+
+
+.bluePink{
+	color:rgb(22, 141, 232,0.8);
+	text-shadow:2px 2px 3px rgb(232, 22, 208,0.6);
+	
+}
+
+.edit{
+	font-size:24px;
+}
+
+.linkGroup{
+	text-align:center;	
+}
+
+.leftMargin{
+	margin-left:30px;
+}
+
+.button{
+	color:rgb(22, 141, 232);
+	background-color:white;
+	border: 3px solid rgb(22, 141, 232);
+	padding: 5px;
+	margin: 5px;
+	font-family: "Londrina Solid";
+	font-size:24px;
+	
+}
+
+.audioControls{
+	display:flex;
+	align-items:center;
+	justify-content:center;
+	margin-top:50px;
+}
+
+.episodeTitle{
+	text-align:center;
+	font-family:"Londrina Solid";
+	margin-top:50px;
+}
+
+.myContainer{
+	display:flex;
+	align-items:center;
+	justify-content:center;
+}
+
+.newForm{
+	border:4px double rgb(232, 22, 208);
+	background-color:rgb(22, 141, 232);
+	color:white;
+	align-items:center;
+	padding:20px;
+	margin-top: 40px;
+	margin-left:20px;
+	margin-right:20px;
+	width:350px;
+	align-self:center;
+}
+
+.formGroup2{
+	display:flex;
+	flex-direction:column;
+	margin-bottom:10px;
+}
+
+.shadow{
+	text-shadow:2px 2px 4px rgb(232, 22, 208,0.8);
+}

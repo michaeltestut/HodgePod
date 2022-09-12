@@ -25,10 +25,10 @@ public class Episode {
 	@GeneratedValue(strategy=GenerationType.IDENTITY)
 	private Long id;
 	
-	@NotEmpty
+	@NotEmpty(message="*Episode Title is Required")
 	private String episodeTitle;
 	
-	@NotEmpty
+	@NotEmpty(message="*Episode Description is Required")
 	private String episodeDescription;
 	
 	@ManyToOne(fetch=FetchType.LAZY)
@@ -36,7 +36,7 @@ public class Episode {
 	private Podcast podcast;
 	
 	//Add media
-	@NotNull
+	@NotEmpty(message="*Must Upload Episode (.mp3)")
 	private String episodeURL;
 	
 	//Add Likes feature here eventually(Many to Many relationship)

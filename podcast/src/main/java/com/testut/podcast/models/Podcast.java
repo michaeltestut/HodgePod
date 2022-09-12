@@ -26,16 +26,16 @@ public class Podcast {
 	@GeneratedValue(strategy=GenerationType.IDENTITY)
 	private Long id;
 	
-	@NotEmpty(message="Podcast Name is Required")
+	@NotEmpty(message="*Podcast Name is Required")
 	private String podcastName;
 	
-	@NotEmpty(message="Host is Required")
+	@NotEmpty(message="*Host is Required")
 	private String podcastHost;
 	
-	@NotEmpty(message="Genre is Required")
+	@NotEmpty(message="*Genre is Required")
 	private String genre;
 	
-	@NotEmpty(message="Description is Required")
+	@NotEmpty(message="*Description is Required")
 	private String podcastDescription;
 	
 	@ManyToOne(fetch=FetchType.LAZY)
