@@ -36,7 +36,7 @@ public class Episode {
 	private Podcast podcast;
 	
 	//Add media
-	@NotEmpty(message="*Must Upload Episode (.mp3)")
+	@NotNull(message="*Must Upload Episode (.mp3)")
 	private String episodeURL;
 	
 	//Add Likes feature here eventually(Many to Many relationship)
